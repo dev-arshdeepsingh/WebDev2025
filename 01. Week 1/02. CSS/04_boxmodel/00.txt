@@ -1,0 +1,17 @@
+Now, note that :
+When we apply box-sizing:content-box via universal Selector then when we apply margin, padding & border to any html element then the padding & border space is calculated explicitely.
+Container Size = ContainerSize + padding + border
+Eg: When you assign 300px to the container, then u will end up with more as it will consume more space using border & Padding.
+
+
+While in box-sizing: border-box, the size occupied by that div is fixed and the content's size changes accordingly w.r.t padding and border.So it doesn;t impacts the size of container.
+Container Size = Fixed ie which is added manually
+Content Size changes.
+Here when u assign 300px to an element or div then it will guaranteedly consume only 300px inclusive of border & Padding.
+
+Inline Vs  Block:
+Inline Element only occupies the reqd. space.
+Block Element occupies whole width of the screen.
+
+We can change default behaviour of element using display CSS's property.
+Flex is Imp. in it.
