@@ -1,0 +1,33 @@
+Flexbox is a thing in CSS which allows certain elements to get placed in certain areas on a webpage. Eg: Centering a div on a webpage.
+
+div.card + Enter == div element with class named card.
+
+#1A1A1A is one of the good color to be given to body of webpage.
+
+
+There are some default margin & Padding set by the browser make sure to set them to 0 before going forward n CSS.
+
+Seting height to 100vh allows to display content w.r.t 100% of the screen, So that in case of multi sized screen, we don't face any inconsistency.
+
+flexbox is a display prop. which helps us to move elements much more easier and faster.
+justify-content = center && align-items: center; are 2 props with which we can align item in center in flex. 100vh is also imp. for it.
+
+border radius is a property to reduce sharpness of corner of boxes.
+
+padding is inside out space ie breathable space.
+
+Flex is applied to parent element, ie when we wanted to edit div we applied flex to body and now when we wanted to edit input boxes then we will apply flex to form.
+
+ flex-direction: column; will align input boxes in column format.
+
+ flex-direction: column-reverse; will align input boxes in reverse column format.
+
+ There is a gap: 30px; prop. in CSS for forms which can add gap b/w 2 input boxes. However we can add margin and padding for it.
+
+ NOTE: PADDING == INNER BREATHING SPACE
+
+ PADDING IMPACTS SIZE.
+
+ Don't forget to do assignment of video no. 18.
+
+ ***********************************************************************
