@@ -1,0 +1,27 @@
+CSS is used to design websites some popular css frameworks are Tailwind, shadcn, magicUi, Daisyui, flowbite etc etc. Most of them are free. Coorporate's favourite one's are flowbite and antidesign.
+Pro advice is that do not waste your time on designing as alrady prewritten code is available.
+
+
+01...............................
+
+The 1st imp. thing on website is font, 2nd is images and third is component ie how button, list and card looks.
+
+CSS is used to design html elements.
+
+CSS Stands for cascading style sheets which means as the css prop. is applied to upper element, It automatically cascades to below element.
+
+There are 3 ways to add css in our code:-
+01. Inline styling:- ie styling within every line individually.
+<h1 style="color: orangered">Lorem ipsum dolor sit amet.</h1>
+
+02.Adding style tag inside Head Tag and write whole CSS in it.
+<style>
+     h2, p {
+        color: brown;
+      }
+    </style> //We can also add IDs and Classes
+
+03. Creating a neww CSS file & linking it via link tag in head tag.It makes it easier to make manipulations.
+
+############ LEARN ABOUT WHICH METHODS TAKE MORE POWER AND GETS PRIORITY WHENEVER THERE ARE CLASHES. #################
+

@@ -1,0 +1,103 @@
+01. & 02................
+
+One piece of advice, don't try to learn everything. & try to learn on the go.
+
+MDN and w3 schools are good to use as documentations.
+
+VS code provides emmet support with which we can write our code more fastly.eg: div>ul>li + enter
+
+In img tag we use   ./  to enter a folder 
+eg: ./images/hc.png
+
+Anchor tag or a tag is used to add link on webpage
+Inside a html tag there exists attributes. eg src in img and href in anchor.
+lly, there is a title attribute which is used to add title on a html tag and it appears when we hover on that tag's content on webpage. Eg of attributes are height and width in image tag.
+other eg. can be a:mail + enter will create an anchor tag with "MailTo" Reference.
+eg. a:tel + Enter will open a tag with phone no. Reference
+
+Infact, we can use "a" Tag to link other webpage or other html file in our vs code.
+eg:  <a href="./index.html">go to index</a>
+
+Lists are of 2 type ol ie ordered list and ul ie unordered list and li tag is used as sub tag to create list inside that tag.
+
+
+2 types of html elements inline and block
+block elements cover up the entire width of the screen whereas the inline take only the space rqd. by them. 
+eg. of block elements are heading tag, li, ul, ol, p etc
+eg. of inline elements are img, a tag, button, strong or Bold(<b>), emphasis or Italics(<i>)  etc
+
+
+div is a wrapping container which doesn't do anything else except dividing the code into sub parts so that we can easily edit our code individually when our we want to.
+
+
+03 & 04.............................................................
+
+Tables were used to save scientific researches in early days by scientists
+use MDN for everything, for eg. search for progrss bar, search etc in forms in html.
+
+Be creative and try to figure out things on your own.
+
+Forms are used to get data from user.
+The action attribute in form will be discussed later.
+Actually, forms don't collect data but the input element in form is responsible for collecting data.
+As soon as we declare input element we get suggestions about various inputs types like email, phn, password, date , time etc.
+
+We also use label in forms and note that if we declare input inside label then if we write text before input then it will appear before input element eg. 
+<label for="email">
+            email:
+            <input placeholder="test" type="text" name="email">
+        </label>
+
+
+
+and if we write text after input then it will appear after input element eg checkbox
+<label for="abc">           
+            <input placeholder="test" type="checkbox" name="abc">
+            Amritsar
+        </label>
+
+Button is mostly created at the end of form but note that it must be inside the form ag not outside form tag.
+Button is also of various types but it depends on situation you can check on suggestion of vs code. like reset, submit etc
+
+
+Textarea is also an element in form which is used to text area which can be used as feedback box. It also has rows and column size attribute.
+
+Input element has month,file,color,checkbox, radio and select type also.
+
+NOTE: ctrl + SPACE = suggestion of that element in vscode
+
+Placeholder is an input & label attribute and is used to display a transparent text inside input box.
+
+HTML is majorly used to either collect data from user and Display data to user.
+
+
+
+05...............................................................
+
+Semantics only guide webpage about how the content should be wrapped around, earlier we ussed to do use divs.
+
+These are not elements but they are containers and they don't do anything of their own except wrapping. They enhances code readability.
+
+html introduced semantics with html5.
+
+header, nav, main, section, article, footer, time, code, address, figure etc.
+
+& + "suggestion" = special logos (features of UTF8)
+eg. &copy = copyright
+
+
+media.html...........................
+
+video tag is used
+dont forget to add attribute like controls, controlslist = "nofullscreen nodownload noremoteplayback" etc
+
+we can also add audio.
+
+ARIA Tags: Accessible Rich Interface Application (Just to Explore)
+Global attributes?
+
+Right now imp. in html are heading, list, Tables, & Forms.
+
+What does the action attribute in an HTML form do?
+Which ARIA attribute is used to define a landmark region in a web page?
+
